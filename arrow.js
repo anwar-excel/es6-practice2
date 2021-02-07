@@ -15,5 +15,13 @@
 // console.log(result3);
 const ages = [12, 14, 11, 13, 17];
 const ages2 = [15, 16, 12];
-const allAges = ages.concat(ages2);
-console.log(allAges);
+const ages3 = [150, 136, 212];
+const allAges = ages.concat(ages2).concat([5]).concat(ages3);
+const allAges2 = [...ages, ...ages2, ...ages3];
+// console.log(allAges2);
+
+const bussiness = 650;
+const minister = 450;
+const sochib = 23333;
+const maximum = Math.max(bussiness, minister, sochib);
+console.log(maximum);

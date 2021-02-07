@@ -23,5 +23,7 @@ const allAges2 = [...ages, ...ages2, ...ages3];
 const bussiness = 650;
 const minister = 450;
 const sochib = 23333;
-const maximum = Math.max(bussiness, minister, sochib);
+// const maximum = Math.max(bussiness, minister, sochib);
+const takapoisa = [344,22,2222222,10000000000];
+const maximum = Math.max(...takapoisa);
 console.log(maximum);

@@ -26,4 +26,14 @@ const sochib = 23333;
 // const maximum = Math.max(bussiness, minister, sochib);
 const takapoisa = [344,22,2222222,10000000000];
 const maximum = Math.max(...takapoisa);
-console.log(maximum);
+// console.log(maximum);
+class student{
+    constructor(sId, sName){
+        this.id = sId;
+        this.name = sName;
+    }
+}
+
+const student1 = new student(12, "shuvo");
+const student2 = new student(22, "mahiya");
+console.log(student1,student2);

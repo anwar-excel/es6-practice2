@@ -36,4 +36,21 @@ class student{
 
 const student1 = new student(12, "shuvo");
 const student2 = new student(22, "mahiya");
-console.log(student1,student2);
+// console.log(student1,student2);
+class Parent {
+    constructor(){
+        this.fatherName = "Schwerznegger";
+    }
+}
+class Child extends Parent{
+    constructor(name){
+        super();
+        this.name = name;
+    }
+    getFullName(){
+        return this.name + " " + this.fathername;
+    }
+}
+
+const baby = new Child("Arnold");
+console.log(baby.getFullName());
